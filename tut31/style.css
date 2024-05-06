@@ -26,3 +26,15 @@ body{
     }
 
 }
+
+@media screen and (min-width: 755px){
+
+    .boxes{
+        flex-direction: row;
+    }
+    .box{
+        background-color: purple;
+        padding: 5px 5px;
+    }
+
+}
