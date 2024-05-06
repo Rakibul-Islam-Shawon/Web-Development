@@ -1,0 +1,32 @@
+body{
+    background-color: gray;
+    
+    
+}
+.card{
+    
+    background-color: white;
+    width: 198px;
+    height: 244px;
+    border-radius: 7px;
+
+}
+.banner{
+   padding: 5px;
+}
+
+.banner img{
+    width: 188px;
+    height: 120px;
+    border-radius: 7px;
+    
+}
+
+.types{
+    padding: 0 34px;
+}
+
+.types span{
+    border: 2px solid black;
+    border-radius: 4px;
+}
