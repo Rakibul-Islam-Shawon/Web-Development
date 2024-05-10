@@ -1,9 +1,10 @@
 console.log("Hello I am conditional tutorial");
 
 
-let age = 45;
+let age = 35;
+let grace = 20;
 
-if(age > 18){
+if((age - grace) > 18){
     console.log("You can drive.");
 }
 
