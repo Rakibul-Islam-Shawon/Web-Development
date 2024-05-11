@@ -7,16 +7,24 @@ let a = 1;
 //     console.log(a + i);
 // }
 
-let obj = {
-    name: "Harry",
-    role: "Programmer",
-    company: "CodeWithRakib"
-}
+// let obj = {
+//     name: "Harry",
+//     role: "Programmer",
+//     company: "CodeWithRakib"
+// }
 
-for( const key in obj){
-    console.log(key, obj[key]);
-}
+// for( const key in obj){
+//     console.log(key, obj[key]);
+// }
 
-for(const i of "Rakib"){
+// for(const i of "Rakib"){
+//     console.log(i);
+// }
+
+
+let i = 5;
+
+while(i<=6){
     console.log(i);
+    i++;
 }
