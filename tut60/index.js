@@ -19,5 +19,12 @@ let friend_name = "Samir";
 
 console.log(real_name.toUpperCase());
 console.log(friend_name.toLowerCase());
+console.log(real_name.length);
+console.log(real_name.slice(1,4));
+
+console.log(real_name.replace("Ra","12"));
+console.log(real_name.concat(friend_name, " ANother"));
+
+console.log(real_name.indexOf("k"));
 
 
