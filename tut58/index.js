@@ -27,10 +27,19 @@
 // console.log("The sum of these numbers is: ", result);
 
 
-function sum ( a, b, c){
-    return a + b + c;
+// function sum ( a, b, c){
+//     return a + b + c;
+// }
+
+// let result = sum (1, 2,6);
+
+// console.log("the sum of these numbers is : ", result);
+
+
+//Arrow Function
+
+const func1 = (a,b,c) => {
+    console.log("SUmmation of a, b, c: ", a+b+c);
 }
 
-let result = sum (1, 2,6);
-
-console.log("the sum of these numbers is : ", result);
+func1(1, 2,3 );
