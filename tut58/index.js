@@ -17,11 +17,20 @@
 
 // sum(10,20);
 
-function sum (a , b){
-    return a + b;
+// function sum (a , b){
+//     return a + b;
 
+// }
+
+// let result = sum (2,3 );
+
+// console.log("The sum of these numbers is: ", result);
+
+
+function sum ( a, b, c){
+    return a + b + c;
 }
 
-let result = sum (2,3 );
+let result = sum (1, 2,6);
 
-console.log("The sum of these numbers is: ", result);
+console.log("the sum of these numbers is : ", result);
