@@ -11,8 +11,17 @@
 
 // greetings("Samir");
 
-function sum (a, b){
-    console.log(a+b);
+// function sum (a, b){
+//     console.log(a+b);
+// }
+
+// sum(10,20);
+
+function sum (a , b){
+    return a + b;
+
 }
 
-sum(10,20);
+let result = sum (2,3 );
+
+console.log("The sum of these numbers is: ", result);
