@@ -12,5 +12,12 @@ let real_name = "Rakib";
 
 let friend_name = "Samir";
 
-console.log("His name is " + real_name + " and his friend name is "+friend_name);
-console.log(`His name is ${real_name} and his friend name is ${friend_name}`);
+// console.log("His name is " + real_name + " and his friend name is "+friend_name);
+// console.log(`His name is ${real_name} and his friend name is ${friend_name}`);
+
+//Uppercase and lowercase
+
+console.log(real_name.toUpperCase());
+console.log(friend_name.toLowerCase());
+
+
