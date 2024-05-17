@@ -18,14 +18,21 @@
 // car.start();
 
 
-const person = {
-    firstName : "Rakibul",
-    lastName  : "Islam",
-    id        : 55455,
-    fullName  : function(){
-        return this.firstName + " " + this.lastName;
-    }
+// const person = {
+//     firstName : "Rakibul",
+//     lastName  : "Islam",
+//     id        : 55455,
+//     fullName  : function(){
+//         return this.firstName + " " + this.lastName;
+//     }
 
-}
+// }
 
-console.log(person.fullName());
+// console.log(person.fullName());
+
+
+let x = 5;
+let y = new Number(2);
+
+console.log(x);
+console.log(y);
