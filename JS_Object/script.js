@@ -55,6 +55,9 @@ const person = {
 
 // console.log (txt);
 
-person.country = "Germany";
+person.country = "Germany";  //Adding new property
 
+console.log(person);
+
+delete person.age;      //deleting property
 console.log(person);
