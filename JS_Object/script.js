@@ -46,11 +46,15 @@ const person = {
     age : 23
 };
 
-let txt = '';
-for(let x in person){
+// let txt = '';
+// for(let x in person){
 
-    txt += person[x];
+//     txt += person[x];
     
-}
+// }
 
-console.log (txt);
+// console.log (txt);
+
+person.country = "Germany";
+
+console.log(person);
