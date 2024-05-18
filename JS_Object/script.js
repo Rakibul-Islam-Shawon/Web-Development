@@ -46,6 +46,12 @@ const person = {
     age : 23
 };
 
+person.fullname = function(){
+    return (this.fname + " " + this.lname).toUpperCase();
+}
+
+console.log(person.fullname());
+
 // let txt = '';
 // for(let x in person){
 
@@ -80,20 +86,20 @@ const person = {
 // console.log ( myObj.cars.car2);
 
 
-const myObj = {
-    name : "Rakib",
-    age : 29,
+// const myObj = {
+//     name : "Rakib",
+//     age : 29,
 
-    cars : [
-        {cname: "BMW", models:["12", "Focus"]},
-        {cname: "Porsche", models:["320", "x3", "x5"]},
+//     cars : [
+//         {cname: "BMW", models:["12", "Focus"]},
+//         {cname: "Porsche", models:["320", "x3", "x5"]},
         
-    ]
-};
+//     ]
+// };
 
-for(let i in myObj.cars){
-    console.log(myObj.cars[i].cname);
-    for(let j in myObj.cars[i].models){
-        console.log(myObj.cars[i].models[j]);
-    }
-}
+// for(let i in myObj.cars){
+//     console.log(myObj.cars[i].cname);
+//     for(let j in myObj.cars[i].models){
+//         console.log(myObj.cars[i].models[j]);
+//     }
+// }
