@@ -31,8 +31,26 @@
 // console.log(person.fullName());
 
 
-let x = 5;
-let y = new Number(2);
+// let x = 5;
+// let y = new Number(2);
 
-console.log(x);
-console.log(y);
+// console.log(x);
+// console.log(y);
+
+
+//For in loop in JS OBject
+
+const person = {
+    fname : " John",
+    lname : " Doe ",
+    age : 23
+};
+
+let txt = '';
+for(let x in person){
+
+    txt += person[x];
+    
+}
+
+console.log (txt);
