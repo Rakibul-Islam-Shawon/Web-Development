@@ -65,16 +65,35 @@ const person = {
 
 //Nested Object
 
+// const myObj = {
+//     name : "Rakib",
+//     age : 29,
+
+//     cars : {
+//         car1: "BMW",
+//         car2: "Porsche",
+//         car3: "Audi"
+//     }
+// };
+
+
+// console.log ( myObj.cars.car2);
+
+
 const myObj = {
     name : "Rakib",
     age : 29,
 
-    cars : {
-        car1: "BMW",
-        car2: "Porsche",
-        car3: "Audi"
-    }
+    cars : [
+        {cname: "BMW", models:["12", "Focus"]},
+        {cname: "Porsche", models:["320", "x3", "x5"]},
+        
+    ]
 };
 
-
-console.log ( myObj.cars.car2);
+for(let i in myObj.cars){
+    console.log(myObj.cars[i].cname);
+    for(let j in myObj.cars[i].models){
+        console.log(myObj.cars[i].models[j]);
+    }
+}
