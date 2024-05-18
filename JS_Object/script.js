@@ -55,9 +55,26 @@ const person = {
 
 // console.log (txt);
 
-person.country = "Germany";  //Adding new property
+// person.country = "Germany";  //Adding new property
 
-console.log(person);
+// console.log(person);
 
-delete person.age;      //deleting property
-console.log(person);
+// delete person.age;      //deleting property
+// console.log(person);
+
+
+//Nested Object
+
+const myObj = {
+    name : "Rakib",
+    age : 29,
+
+    cars : {
+        car1: "BMW",
+        car2: "Porsche",
+        car3: "Audi"
+    }
+};
+
+
+console.log ( myObj.cars.car2);
