@@ -26,19 +26,39 @@
 
 //Getter and Setter
 
+// const person = {
+//     firstName: "Rakib",
+//     lastName: "Hasan",
+//     language: "bn",
+
+//     get fullName(){
+//         return this.firstName+" "+ this.lastName;
+//     },
+
+//     get lang(){
+//         return this.language;
+//     }
+// };
+
+// console.log(person.fullName);
+// console.log(person.lang);
+
+
+
+
+//Setter
+
 const person = {
-    firstName: "Rakib",
-    lastName: "Hasan",
-    language: "bn",
+    firstName : "Rakib",
+    lastName : "Hasan",
+    language: "",
 
-    get fullName(){
-        return this.firstName+" "+ this.lastName;
-    },
-
-    get lang(){
-        return this.language;
+    set lang (key){
+        this.language = key;
     }
 };
 
-console.log(person.fullName);
-console.log(person.lang);
+
+person.lang = "Bn";
+
+console.log(person.language);
