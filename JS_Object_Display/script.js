@@ -48,17 +48,38 @@
 
 //Setter
 
-const person = {
-    firstName : "Rakib",
-    lastName : "Hasan",
-    language: "",
+// const person = {
+//     firstName : "Rakib",
+//     lastName : "Hasan",
+//     language: "",
 
-    set lang (key){
-        this.language = key;
+//     set lang (key){
+//         this.language = key;
+//     }
+// };
+
+
+// person.lang = "Bn";
+
+// console.log(person.language);
+
+
+
+
+//Object constructor function 
+
+function Person(first, last, age){
+    this.firstName = first;
+    this.lastName = last;
+    this.age = age;
+
+    this.fullName = function(){
+        return this.firstName + " " + this.lastName;
     }
-};
+}
 
 
-person.lang = "Bn";
+const rakib = new Person("Rakib", "Hasan", 29);
+const rifat = new Person("Rifat", "Kazi", 26);
 
-console.log(person.language);
+console.log(rakib.fullName());
