@@ -7,13 +7,18 @@ const person = {
 // document.getElementById("demo").innerHTML = person.name + " is "
 //  + person.age + " and lives in "+person.city;
 
-let text = "";
+// let text = "";
 
-for(let x in person){
-    text = text + person[x] + " ";
-}
-// console.log(text);
+// for(let x in person){
+//     text = text + person[x] + " ";
+// }
+// // console.log(text);
 
-document.getElementById("demo").innerHTML = text;
+// document.getElementById("demo").innerHTML = text;
+
+let myString = JSON.stringify(person);
+document.getElementById("demo").innerHTML = myString;
+
+// console.log(myString);
 
 
