@@ -31,10 +31,14 @@ const person = {
     lastName: "Hasan",
     language: "bn",
 
+    get fullName(){
+        return this.firstName+" "+ this.lastName;
+    },
+
     get lang(){
         return this.language;
     }
 };
 
-
+console.log(person.fullName);
 console.log(person.lang);
