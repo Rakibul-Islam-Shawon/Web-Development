@@ -1,7 +1,8 @@
 const person = {
     name: "Rakib",
     age : 27,
-    city : "Dhaka"
+    city : "Dhaka",
+    today: new Date()
 }
 
 // document.getElementById("demo").innerHTML = person.name + " is "
@@ -19,6 +20,6 @@ const person = {
 let myString = JSON.stringify(person);
 document.getElementById("demo").innerHTML = myString;
 
-// console.log(myString);
+console.log(myString);
 
 
