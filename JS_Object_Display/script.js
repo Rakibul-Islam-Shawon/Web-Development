@@ -84,10 +84,18 @@ const rifat = new Person("Rifat", "Kazi", 26);
 
 rakib.country = "Bangladesh";
 
-console.log(rakib);
-console.log(rifat);
+// console.log(rakib);
+// console.log(rifat);
 
 
 //It is not possible to add property in constructor for example
 
 //Person.nationality = "Bengali"; // This will not work
+
+
+//Prototype
+
+Person.prototype.nationality = "Bengali";
+
+
+console.log(rakib.nationality);
