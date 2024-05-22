@@ -82,5 +82,7 @@ function Person(first, last, age){
 const rakib = new Person("Rakib", "Hasan", 29);
 const rifat = new Person("Rifat", "Kazi", 26);
 
-console.log(rakib.fullName());
-console.log(rifat.fullName());
+rakib.country = "Bangladesh";
+
+console.log(rakib);
+console.log(rifat);
