@@ -86,3 +86,8 @@ rakib.country = "Bangladesh";
 
 console.log(rakib);
 console.log(rifat);
+
+
+//It is not possible to add property in constructor for example
+
+//Person.nationality = "Bengali"; // This will not work
