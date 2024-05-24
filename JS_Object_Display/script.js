@@ -95,7 +95,16 @@ rakib.country = "Bangladesh";
 
 //Prototype
 
-Person.prototype.nationality = "Bengali";
+// Person.prototype.nationality = "Bengali";
 
 
-console.log(rakib.nationality);
+// console.log(rakib.nationality);
+
+
+const letters = new Set(['a','b','c']);
+
+const letterIterator = letters.values();
+
+for(let a of letterIterator){
+    console.log(a);
+}
