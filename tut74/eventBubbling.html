@@ -36,11 +36,13 @@
     </div>
 
     <script>
-      document.querySelector(".child").addEventListener("click", () => {
+      document.querySelector(".child").addEventListener("click", (e) => {
+        e.stopPropagation();
         alert("Chiled is clicked");
       });
 
       document.querySelector(".childContainer").addEventListener("click", () => {
+        e.stopPropagation();
         alert("child container is clicked");
       });
 
