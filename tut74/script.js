@@ -9,4 +9,5 @@ button.addEventListener("click", ()=>{
 button.addEventListener("dblclick", ()=>{
 
     document.querySelector(".box").innerHTML = "Your double clicked working.";
+    
 })
