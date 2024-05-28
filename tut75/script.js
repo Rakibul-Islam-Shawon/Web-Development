@@ -1,17 +1,17 @@
-// console.log("Rakib is becomming programmer");
-// console.log("Rifat is a accountant");
+console.log("Rakib is becomming programmer");
+console.log("Rifat is a accountant");
 
 
-// setTimeout(()=>{
-//     console.log("I am inside settimeout");
-// }, 2000);
+setTimeout(()=>{
+    console.log("I am inside settimeout");
+}, 2000);
 
-// setTimeout(()=>{
-//     console.log("I am inside settimeout 2");
-// },1000);
+setTimeout(()=>{
+    console.log("I am inside settimeout 2");
+},1000);
 
-// console.log("The END");
-// console.log("The END");
+console.log("The END, of the program");
+
 
 const callback = (arg)=>{
     console.log(arg);
