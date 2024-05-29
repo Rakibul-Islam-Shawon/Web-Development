@@ -27,13 +27,17 @@
 
 
 //Function hoisting
+// let a = sum(2,3);
+
+// function sum(a,b){
+//     return a+b;
+// }
 
 
-let a = sum(2,3);
+// console.log(a);
 
-function sum(a,b){
-    return a+b;
-}
+//Self-Invoking function
 
-
-console.log(a);
+(function (){
+    console.log("I am self invoking function");
+})();
