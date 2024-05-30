@@ -1,5 +1,20 @@
-function add ( x, y =1){
-    return x*y;
+// function add ( x, y =1){
+//     return x*y;
+// }
+
+// console.log(add(2,5));
+
+//Argument object
+x = findMax(1, 123, 500, 115, 44, 88);
+
+function findMax() {
+  let max = -Infinity;
+  for (let i = 0; i < arguments.length; i++) {
+    if (arguments[i] > max) {
+      max = arguments[i];
+    }
+  }
+  return max;
 }
 
-console.log(add(2,5));
+console.log(x);
