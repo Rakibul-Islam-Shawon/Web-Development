@@ -28,9 +28,18 @@
 // console.log(Modulas(3,5));
 
 
-function Division(x,y){
-  return x/y;
+// function Division(x,y){
+//   return x/y;
+// }
+
+// console.log(Division(6,10));
+
+
+//Simple Function
+
+function output(){
+  console.log("Hi there it's me");
 }
 
-console.log(Division(6,10));
+output();
 
