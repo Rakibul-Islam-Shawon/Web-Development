@@ -21,8 +21,16 @@
 
 
 
-function Modulas(x, y){
-  return (x%y);
+// function Modulas(x, y){
+//   return (x%y);
+// }
+
+// console.log(Modulas(3,5));
+
+
+function Division(x,y){
+  return x/y;
 }
 
-console.log(Modulas(3,5));
+console.log(Division(6,10));
+
