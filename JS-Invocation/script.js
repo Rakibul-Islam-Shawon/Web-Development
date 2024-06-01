@@ -12,3 +12,4 @@ function myFunction(arg1, arg2){
 const myObj = new myFunction("Rakib", "Khan");
 
 console.log(myObj.firstName);
+console.log(myObj.lastName);
