@@ -16,4 +16,6 @@ const person2 = {
 };
 
 
-console.log(person.fullName.call(person1));
+console.log(person.fullName()); //THis will print undefined
+
+console.log(person.fullName.call(person2));
