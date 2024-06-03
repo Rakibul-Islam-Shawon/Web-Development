@@ -18,4 +18,6 @@ const person2 = {
 
 // console.log(person.fullName()); //THis will print undefined
 
-console.log(person.fullName.call(person2, "DHaka", "Bangladesh"));
+// console.log(person.fullName.call(person2, "DHaka", "Bangladesh"));
+
+console.log(person.fullName.apply(person2, ["DHaka", "Bangladesh"]));
