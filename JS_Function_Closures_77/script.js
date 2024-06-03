@@ -9,3 +9,7 @@ add();
 add();
 console.log(counter);
 
+counter = 5;
+
+console.log(counter);
+
