@@ -20,4 +20,8 @@ const person2 = {
 
 // console.log(person.fullName.call(person2, "DHaka", "Bangladesh"));
 
-console.log(person.fullName.apply(person2, ["DHaka", "Bangladesh"]));
+// console.log(person.fullName.apply(person2, ["DHaka", "Bangladesh"]));
+
+console.log(Math.max(1,2,3));
+
+console.log(Math.max.apply(null, [4,3,6]));
