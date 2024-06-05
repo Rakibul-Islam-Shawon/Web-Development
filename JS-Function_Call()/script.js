@@ -15,10 +15,15 @@ const person2 = {
     lastName: "Hasan"
 };
 
+const person3 = {
+    firstName: "Hasin",
+    lastName: "Haider"
+};
+
 
 // console.log(person.fullName()); //THis will print undefined
 
-// console.log(person.fullName.call(person2, "DHaka", "Bangladesh"));
+console.log(person.fullName.call(person3, "DHaka", "Bangladesh"));
 
 // console.log(person.fullName.apply(person2, ["DHaka", "Bangladesh"]));
 
