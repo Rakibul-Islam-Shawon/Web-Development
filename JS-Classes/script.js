@@ -14,6 +14,6 @@ const audi = new Car("Audi", 2001);
 const marcedez = new Car("Marcedez", 1980);
 
 
-// bmw.run();
-// audi.run();
+bmw.run();
+audi.run();
 marcedez.run();
