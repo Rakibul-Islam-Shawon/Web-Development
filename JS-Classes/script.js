@@ -10,5 +10,8 @@ class Car {
 }
 
 const bmw = new Car("BMW", 1990);
+const audi = new Car("Audi", 2001);
 
-bmw.run();
+
+// bmw.run();
+audi.run();
