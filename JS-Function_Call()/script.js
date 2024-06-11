@@ -46,3 +46,10 @@ console.log(person.fullName.call(person3, "DHaka", "Bangladesh", 2100));
 // }
 
 // console.log(division(300,400));
+
+function sum(a,b){
+    let sum = a+b
+    return sum;
+}
+
+console.log(sum(300,400));
