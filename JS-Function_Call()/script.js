@@ -1,6 +1,6 @@
 const person = {
-    fullName: function(city , country){
-        return this.firstName + " " + this.lastName + " from " + city + " and " + country;
+    fullName: function(city , country, code){
+        return this.firstName + " " + this.lastName + " from " + city + " and " + country +" postal code "+code;
     }
 };
 
@@ -23,9 +23,9 @@ const person3 = {
 
 // console.log(person.fullName()); //THis will print undefined
 
-console.log(person.fullName.call(person3, "DHaka", "Bangladesh"));
+console.log(person.fullName.call(person3, "DHaka", "Bangladesh", 2100));
 
-// console.log(person.fullName.apply(person2, ["DHaka", "Bangladesh"]));
+// console.log(person.fullName.apply(person2, ["DHaka", "Bangladesh", ]));
 
 // console.log("ENter the value of a, b, c: ");
 
@@ -41,8 +41,8 @@ console.log(person.fullName.call(person3, "DHaka", "Bangladesh"));
 // console.log(mulitple(300,400));
 
 
-function division(a,b){
-    return a/b;
-}
+// function division(a,b){
+//     return a/b;
+// }
 
-console.log(division(300,400));
+// console.log(division(300,400));
