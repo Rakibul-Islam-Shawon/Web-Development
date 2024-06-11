@@ -34,8 +34,15 @@ console.log(person.fullName.call(person3, "DHaka", "Bangladesh"));
 // console.log(Math.max.apply(null, [4,3,6]));
 
 
-function mulitple(a,b){
-    return a*b;
+// function mulitple(a,b){
+//     return a*b;
+// }
+
+// console.log(mulitple(300,400));
+
+
+function division(a,b){
+    return a/b;
 }
 
-console.log(mulitple(300,400));
+console.log(division(300,400));
