@@ -6,4 +6,6 @@ console.log(document.getElementById("para"));
 document.querySelectorAll();
 
 console.log(document.getElementById("anchor").innerHTML = "New thisgs");
+
+console.log(document.getElementById("para").innerHTML = "New thisgs");
 // document.getElementsByTagName()
