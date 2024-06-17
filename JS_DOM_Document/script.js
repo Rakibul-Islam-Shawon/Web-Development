@@ -9,3 +9,6 @@ console.log(document.getElementById("anchor").innerHTML = "New thisgs");
 
 console.log(document.getElementById("para").innerHTML = "New thisgs");
 // document.getElementsByTagName()
+
+
+console.log(document.getElementById("para").innerHTML = "New thisgs are completely new");
