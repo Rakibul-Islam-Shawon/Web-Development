@@ -9,4 +9,4 @@
 
 const element = document.getElementById("demo");
 
-element.innerHTML = "Date: " + Date();
+element.innerHTML = Date();
