@@ -9,4 +9,4 @@
 
 const element = document.getElementById("demo");
 
-element.innerHTML = Date();
+element.innerHTML = "Today's date is : "+Date();
