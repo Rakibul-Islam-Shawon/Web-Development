@@ -1,6 +1,11 @@
 function validateForm(){
     const form = document.forms['myForm'];
-    console.log(form ['fname'].value);
+    const value = form ['fname'].value;
 
-    return false;
+    if(value == ""){
+        alert("You have to write your name!");
+
+        return false;
+    }
+
 }
