@@ -3,7 +3,8 @@ function validateForm(){
     const value = form ['fname'].value;
 
     if(value == ""){
-        alert("You have to write your name!");
+        const text = "You have to write your name!";
+        document.getElementById("demo").innerHTML = text;
 
         return false;
     }
