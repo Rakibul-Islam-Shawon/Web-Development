@@ -3,3 +3,9 @@ function changeText(){
 
     textspeech.innerHTML = "You clicked succesfully";
 }
+
+function changeText2(){
+    const anotherText = document.querySelector("#anotherText");
+
+    anotherText.innerHTML = "Your mouse overed succesfully";
+}
