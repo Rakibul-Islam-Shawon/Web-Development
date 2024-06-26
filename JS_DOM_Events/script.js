@@ -1,7 +1,7 @@
 function changeText(){
     const textspeech = document.querySelector("#text");
 
-    textspeech.innerHTML = "You clicked succesfully";
+    textspeech.innerHTML = "You clicked ";
 }
 
 function changeText2(){
