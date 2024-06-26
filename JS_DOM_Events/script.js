@@ -7,5 +7,5 @@ function changeText(){
 function changeText2(){
     const anotherText = document.querySelector("#anotherText");
 
-    anotherText.innerHTML = "Your  overed ";
+    anotherText.innerHTML = "You successfully mouse overed now ";
 }
