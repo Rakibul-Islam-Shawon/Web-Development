@@ -6,14 +6,33 @@
 // }
 
 
+// var x = document.getElementById("myBtn");
+// x.addEventListener("click", myFunction);
+// x.addEventListener("click", someOtherFunction);
+
+// function myFunction() {
+//   alert ("Hello World!");
+// }
+
+// function someOtherFunction() {
+//   alert ("This function was also executed!");
+// }
+
+
+
 var x = document.getElementById("myBtn");
-x.addEventListener("click", myFunction);
-x.addEventListener("click", someOtherFunction);
+x.addEventListener("mouseover", myFunction);
+x.addEventListener("click", mySecondFunction);
+x.addEventListener("mouseout", myThirdFunction);
 
 function myFunction() {
-  alert ("Hello World!");
+  document.getElementById("demo").innerHTML += "Moused over!<br>";
 }
 
-function someOtherFunction() {
-  alert ("This function was also executed!");
+function mySecondFunction() {
+  document.getElementById("demo").innerHTML += "Clicked!<br>";
+}
+
+function myThirdFunction() {
+  document.getElementById("demo").innerHTML += "Moused out!<br>";
 }
