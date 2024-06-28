@@ -26,7 +26,7 @@ x.addEventListener("click", mySecondFunction);
 x.addEventListener("mouseout", myThirdFunction);
 
 function myFunction() {
-  document.getElementById("demo").innerHTML += "Moused over!<br>";
+  document.getElementById("demo").innerHTML += "You Moused over!<br>";
 }
 
 function mySecondFunction() {
