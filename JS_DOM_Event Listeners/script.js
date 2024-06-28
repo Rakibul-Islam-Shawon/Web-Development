@@ -34,5 +34,5 @@ function mySecondFunction() {
 }
 
 function myThirdFunction() {
-  document.getElementById("demo").innerHTML += "Moused out!<br>";
+  document.getElementById("demo").innerHTML += "Moused out! from button <br>";
 }
