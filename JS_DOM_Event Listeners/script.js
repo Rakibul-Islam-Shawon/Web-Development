@@ -30,7 +30,7 @@ function myFunction() {
 }
 
 function mySecondFunction() {
-  document.getElementById("demo").innerHTML += "Clicked!<br>";
+  document.getElementById("demo").innerHTML += "you Clicked! the button<br>";
 }
 
 function myThirdFunction() {
