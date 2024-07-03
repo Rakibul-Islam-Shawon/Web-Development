@@ -6,8 +6,8 @@
 // const element = document.getElementById("div1");
 // element.appendChild(para);
 
-// const p2 = document.getElementById("p2");
-// element.insertBefore(para, p2);
+const p2 = document.getElementById("p2");
+element.insertBefore(para, p2);
 
 
 const p3 = document.getElementById("p2");
