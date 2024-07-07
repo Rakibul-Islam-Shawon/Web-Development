@@ -3,5 +3,9 @@
 // "Browser inner window height: " + window.innerHeight + "px";
 
 
+// document.getElementById("demo").innerHTML = 
+// "Screen width is " + screen.width;
+
+
 document.getElementById("demo").innerHTML = 
-"Screen width is " + screen.width;
+"Screen height is " + screen.height;
