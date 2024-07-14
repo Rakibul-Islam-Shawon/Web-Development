@@ -14,5 +14,5 @@ document.getElementById("demo").innerHTML =
 // "Available screen height is " + screen.availHeight;
 
 
-// document.getElementById("demo").innerHTML = 
-// "Screen color depth is " + screen.colorDepth;
+document.getElementById("demo").innerHTML = 
+"Screen color depth is " + screen.colorDepth;
